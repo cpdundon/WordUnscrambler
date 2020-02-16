@@ -1,0 +1,11 @@
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler/bin/Debug/netcoreapp2.2/WordUnscrambler.deps.json
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler/bin/Debug/netcoreapp2.2/WordUnscrambler.runtimeconfig.json
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler/bin/Debug/netcoreapp2.2/WordUnscrambler.runtimeconfig.dev.json
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler/bin/Debug/netcoreapp2.2/WordUnscrambler.dll
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler/bin/Debug/netcoreapp2.2/WordUnscrambler.pdb
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler/obj/Debug/netcoreapp2.2/WordUnscrambler.csprojAssemblyReference.cache
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler/obj/Debug/netcoreapp2.2/WordUnscrambler.csproj.CoreCompileInputs.cache
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler/obj/Debug/netcoreapp2.2/WordUnscrambler.AssemblyInfoInputs.cache
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler/obj/Debug/netcoreapp2.2/WordUnscrambler.AssemblyInfo.cs
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler/obj/Debug/netcoreapp2.2/WordUnscrambler.dll
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler/obj/Debug/netcoreapp2.2/WordUnscrambler.pdb

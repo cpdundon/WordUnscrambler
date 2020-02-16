@@ -1,0 +1,14 @@
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler.Test.Unit/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler.Test.Unit/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler.Test.Unit/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler.Test.Unit/bin/Debug/netcoreapp2.2/WordUnscrambler.Test.Unit.deps.json
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler.Test.Unit/bin/Debug/netcoreapp2.2/WordUnscrambler.Test.Unit.runtimeconfig.json
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler.Test.Unit/bin/Debug/netcoreapp2.2/WordUnscrambler.Test.Unit.runtimeconfig.dev.json
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler.Test.Unit/bin/Debug/netcoreapp2.2/WordUnscrambler.Test.Unit.dll
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler.Test.Unit/bin/Debug/netcoreapp2.2/WordUnscrambler.Test.Unit.pdb
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler.Test.Unit/obj/Debug/netcoreapp2.2/WordUnscrambler.Test.Unit.csprojAssemblyReference.cache
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler.Test.Unit/obj/Debug/netcoreapp2.2/WordUnscrambler.Test.Unit.csproj.CoreCompileInputs.cache
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler.Test.Unit/obj/Debug/netcoreapp2.2/WordUnscrambler.Test.Unit.AssemblyInfoInputs.cache
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler.Test.Unit/obj/Debug/netcoreapp2.2/WordUnscrambler.Test.Unit.AssemblyInfo.cs
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler.Test.Unit/obj/Debug/netcoreapp2.2/WordUnscrambler.Test.Unit.dll
+/home/cpdundon/c_sharp/WordUnscrambler/WordUnscrambler.Test.Unit/obj/Debug/netcoreapp2.2/WordUnscrambler.Test.Unit.pdb
