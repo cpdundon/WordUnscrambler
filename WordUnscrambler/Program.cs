@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace WordUnscrambler
 {
@@ -9,8 +10,8 @@ namespace WordUnscrambler
         {
             Console.WriteLine("Please enter the scramble source - 'M' for manual or 'F' for file.");
             string scrambleSource = Console.ReadLine().ToUpper();
-            
-            switch (scrambleSource) {
+            switch (scrambleSource)
+            {
                 case "M":
                     ManualInput();
                     break;
@@ -31,11 +32,16 @@ namespace WordUnscrambler
             List<WordPair> results = Processor.ProcessWords(words);
 
             PrintResults(results);
-
         }
 
         private static void FileInput()
         {
+            Console.WriteLine("Enter the path to your file.");
+            string filePath = Console.ReadLine() ?? string.Empty;
+            string[] words = File.ReadAllLines(filePath);
+            List<WordPair> results = Processor.ProcessWords(words);
+
+            PrintResults(results);
 
         }
 
