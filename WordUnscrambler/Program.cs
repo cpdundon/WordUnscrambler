@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace WordUnscrambler
 {
@@ -27,13 +28,23 @@ namespace WordUnscrambler
             Console.WriteLine("Enter a word list in CSV format.");
             string manualInput = Console.ReadLine() ?? string.Empty;
             string[] words = manualInput.Split(",");
-            Processor processWords = new Processor();
+            List<WordPair> results = Processor.ProcessWords(words);
+
+            PrintResults(results);
 
         }
 
         private static void FileInput()
         {
 
+        }
+
+        private static void PrintResults(List<WordPair> results)
+        {
+            foreach (WordPair result in results)
+            {
+                Console.WriteLine("The word {0} => {1}.", result.scrambledWord, result.unscrambledWord);
+            }
         }
     }
 }
