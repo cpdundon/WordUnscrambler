@@ -5,7 +5,7 @@ using WordUnscrambler.Data;
 
 namespace WordUnscrambler
 {
-    class Processor
+    public class Processor
     {
         public static string[] GetReferenceWords()
         {

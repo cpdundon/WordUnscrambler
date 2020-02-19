@@ -21,7 +21,17 @@ namespace WordUnscrambler
                         ManualInput();
                         break;
                     case "F":
-                        FileInput();
+                        try
+                        {
+                            FileInput();
+                        } catch (Exception ex) {
+                            if (ex.GetType().Equals(typeof(System.IO.FileNotFoundException))){
+                                Console.WriteLine("File Read Error:");
+                                Console.WriteLine(ex.Message);
+                            } else {
+                                throw new Exception(ex.Message);
+                            }
+                        }
                         break;
                     default:
                         throw new Exception("Manual or File input data not recognized.  Exiting the program.");
@@ -61,6 +71,12 @@ namespace WordUnscrambler
 
         private static void PrintResults(List<WordPair> results)
         {
+            if (results.Count == 0)
+            {
+                Console.WriteLine("There are no matches.");
+                return;
+            }
+
             foreach (WordPair result in results)
             {
                 Console.WriteLine("The word {0} => {1}.", result.scrambledWord, result.unscrambledWord);

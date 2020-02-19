@@ -2,7 +2,7 @@ using System;
 
 namespace WordUnscrambler
 {
-        struct WordPair
+        public struct WordPair
     {
         public string scrambledWord;
         public string unscrambledWord;
