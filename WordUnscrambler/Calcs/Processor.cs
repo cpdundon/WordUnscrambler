@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Collections.Generic;
+using WordUnscrambler.Data;
 
 namespace WordUnscrambler
 {
@@ -8,8 +9,7 @@ namespace WordUnscrambler
     {
         public static string[] GetReferenceWords()
         {
-            const string referenceFile = "./bin/Debug/ReferenceWords.txt";
-            string[] ret = File.ReadAllLines(referenceFile);
+            string[] ret = File.ReadAllLines(Constants.referenceUnscrambledFile);
             return ret;
         }
         public static List<WordPair> ProcessWords(string[] words)
@@ -27,13 +27,12 @@ namespace WordUnscrambler
                     }
                 }
             }
-            
             return wordPairList;
         }
 
         private static string WordSort(string word)
         {
-            char[] _wordArr = word.Trim().ToCharArray();
+            char[] _wordArr = word.Trim().ToUpper().ToCharArray();
             Array.Sort(_wordArr);
             word = new string(_wordArr);
             return word;

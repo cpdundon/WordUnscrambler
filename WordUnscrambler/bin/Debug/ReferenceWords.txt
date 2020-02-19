@@ -1,6 +1,12 @@
 roam
-moan
+moat
+nor
 run
 none
 cat
 act
+float
+sail
+boat
+tiller
+captain

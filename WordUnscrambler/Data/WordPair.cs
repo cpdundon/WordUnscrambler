@@ -12,5 +12,5 @@ namespace WordUnscrambler
             scrambledWord = _scramabledWord;
             unscrambledWord = _unscrambledWord;
         }
-    } 
+    }
 }
